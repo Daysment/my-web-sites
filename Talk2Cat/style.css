@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-style: normal;
+    src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
+.container {
+    margin: 0 auto;
+    width: 1520px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.for_header {
+    color: #3D405B;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/*Buttons customization*/
+.bt-bgBlue {
+    width: 218px;
+    height: 62px;
+    background-color: #3D405B;
+    border: #3D405B;
+    color: white;
+    font-size: 1.3em;
+}
+
+.bt-bgWhite {
+    width: 218px;
+    height: 62px;
+    background-color: white;
+    border: 3px solid #3D405B;
+    color: #3D405B;
+    font-size: 1.3em;
+}
+
+.bt-bgBlue:hover {
+    background-color: white;
+    border: 3px solid #3D405B;
+    color: #3D405B;
+}
+
+.bt-bgWhite:hover {
+    background-color: #3D405B;
+    border: #3D405B;
+    color: white;
+}
+
+.bt-bgWhite:active {
+    background-color: #192bc8;
+    border: 3px solid #192bc8;
+    color: #ffffff;
+}
+
+.bt-bgBlue:active {
+    background-color: #192bc8;
+    border: #3D405B;
+    color: white;
+}
+
+
+
+/*Start head*/
+/*First block of head*/
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hd-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 2em;
+}
+
+.hd-header {
+    position: relative;
+    color: #3D405B;
+}
+
+.bt-middle {
+    display: flex;
+    justify-content: center;
+}
+
+/*Second part of head, mean*/
+
+.bt-download_around_cat { /*for space between buttons on block: Now you'll learn,*/
+    margin-right: 4%;
+}
+
+.block-bt {
+    margin-top: 3%;
+}
+
+.playing_cat {
+    margin-top: 10%;
+}
+
+.inner-content {
+    background-image: url(img/main-img.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 103% 80%;
+    height: 100vh;
+}
+
+/*head end*/
+
+/*Start read cat mind*/
+
+.read_cat_mind {
+    background-image: url(img/Cat\ allergy-amico\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 70%;
+    margin-top: 310px;
+}
+
+.bl-GoodAndBad_cat {
+    display: flex;
+    
+}
+
+.pleasant_purr {
+    margin-right: 7%;
+}
+
+/*End read cat mind*/
+
+/*Start total*/
+
+.total {
+    display: grid;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.peace_and_tranquility {
+    display: flex;
+    align-items: center;
+}
+
+.healthy_eating {
+    display: flex;
+    align-items: center;
+}
+
+.midnight {
+    display: flex;
+    align-items: center;
+}
+
+/*End total*/
+
+/*Start end*/
+
+.the_end {
+    display: grid;
+    justify-items: center;
+    align-content: space-between;
+    margin-top: 105px;
+    height: 500px;
+}
+
+.rebuild_number {
+    font-size: 9em;
+    color: #E07A5F;
+    background-image: url(img/cat-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*End end*/
