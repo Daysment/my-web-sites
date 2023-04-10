@@ -1,0 +1,157 @@
+body { /*Delete space around walls + delete scroll*/
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+}
+
+/*Create head*/
+
+.head {
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-color: rgb(80, 76, 76);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.8em;
+}
+
+.head-text {
+    color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    max-width: 500px;
+    min-height: 300px;
+    position: relative;
+}
+
+.head-text-element { /*delete a space between blocks data*/
+    margin: 0 0 0 0;
+}
+
+/*Finish head*/
+
+/*Create a first block poem about bull and crazy goats*/
+
+.magic_forest {
+    background-image: url(./img/magic-forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.magic_forest-text {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 690px;
+    font-size: 1.5em;
+}
+
+.magic_forest-text-element {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/*Finish a first block with poem*/
+
+/*Create a second block poem about scrow and fox*/
+
+.autumn_forest {
+    background-image: url(./img/autumn-forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.autumn_forest-text {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(1, 43, 82, 0.6);
+    backdrop-filter: blur(5px)
+}
+
+.autumn_forest-text-element {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: larger;
+    
+}
+
+/*Finish a second block poem about scrow and fox*/
+
+/*Create a third block poem about pigeon who wanted drink*/
+
+.beatifull_forest {
+    background-image: url(./img/beautifull-forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beatifull_forest-text {
+    width: 1200px;
+    color: white;
+}
+
+.beatifull_forest-text-element-up {
+    font-family: 'Stalinist One', cursive;
+    font-size: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    width: 1200px;
+}
+
+.beatifull_forest-text-elements {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 1200px;
+}
+
+.beatifull_forest-text-element-left {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    justify-content: flex-end;
+    text-align: right;
+    background-color: rgba(237, 240, 80, 0.4);
+    font-size: 1.5em;
+    width: 500px;
+    padding-right: 5px;
+}
+
+.beatifull_forest-text-element-right {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    font-size: 1em;
+    width: 500px;
+    padding-left: 5px;
+}
+
+.shrift_type {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+}
+
+/*Finish a third block poem about pigeon who wanted drink*/
